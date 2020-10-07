@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/matrix/MatrixExceptions.cpp.o -c /home/roy/ex3/src/matrix/MatrixExceptions.cpp",
+  "file": "/home/roy/ex3/src/matrix/MatrixExceptions.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c99-gcc   -g   -Wall -Wextra -pedantic -Werror -o CMakeFiles/ex3.out.dir/matrix/Matrix.c.o   -c /home/roy/ex3/src/matrix/Matrix.c",
+  "file": "/home/roy/ex3/src/matrix/Matrix.c"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c99-gcc   -g   -Wall -Wextra -pedantic -Werror -o CMakeFiles/ex3.out.dir/matrix/ErrorCode.c.o   -c /home/roy/ex3/src/matrix/ErrorCode.c",
+  "file": "/home/roy/ex3/src/matrix/ErrorCode.c"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/matrix/ClassMatrix.cpp.o -c /home/roy/ex3/src/matrix/ClassMatrix.cpp",
+  "file": "/home/roy/ex3/src/matrix/ClassMatrix.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/matrix/MatrixParser.cpp.o -c /home/roy/ex3/src/matrix/MatrixParser.cpp",
+  "file": "/home/roy/ex3/src/matrix/MatrixParser.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/matrix/MatrixOperation.cpp.o -c /home/roy/ex3/src/matrix/MatrixOperation.cpp",
+  "file": "/home/roy/ex3/src/matrix/MatrixOperation.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/BMPOperation.cpp.o -c /home/roy/ex3/src/BMP/BMPOperation.cpp",
+  "file": "/home/roy/ex3/src/BMP/BMPOperation.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/BitMap.cpp.o -c /home/roy/ex3/src/BMP/BitMap.cpp",
+  "file": "/home/roy/ex3/src/BMP/BitMap.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/bmp_tester.cpp.o -c /home/roy/ex3/src/BMP/bmp_tester.cpp",
+  "file": "/home/roy/ex3/src/BMP/bmp_tester.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/BitMapFactory.cpp.o -c /home/roy/ex3/src/BMP/BitMapFactory.cpp",
+  "file": "/home/roy/ex3/src/BMP/BitMapFactory.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/BitMapHelpFunctions.cpp.o -c /home/roy/ex3/src/BMP/BitMapHelpFunctions.cpp",
+  "file": "/home/roy/ex3/src/BMP/BitMapHelpFunctions.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/Headers.cpp.o -c /home/roy/ex3/src/BMP/Headers.cpp",
+  "file": "/home/roy/ex3/src/BMP/Headers.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/BMP/Exceptions.cpp.o -c /home/roy/ex3/src/BMP/Exceptions.cpp",
+  "file": "/home/roy/ex3/src/BMP/Exceptions.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/crc/crcOperation.cpp.o -c /home/roy/ex3/src/crc/crcOperation.cpp",
+  "file": "/home/roy/ex3/src/crc/crcOperation.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c99-gcc   -g   -Wall -Wextra -pedantic -Werror -o CMakeFiles/ex3.out.dir/crc/crc32c.c.o   -c /home/roy/ex3/src/crc/crc32c.c",
+  "file": "/home/roy/ex3/src/crc/crc32c.c"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/CacheSearcher.cpp.o -c /home/roy/ex3/src/CacheSearcher.cpp",
+  "file": "/home/roy/ex3/src/CacheSearcher.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/CommandLineParser.cpp.o -c /home/roy/ex3/src/CommandLineParser.cpp",
+  "file": "/home/roy/ex3/src/CommandLineParser.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/CacheList.cpp.o -c /home/roy/ex3/src/CacheList.cpp",
+  "file": "/home/roy/ex3/src/CacheList.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/FileNode.cpp.o -c /home/roy/ex3/src/FileNode.cpp",
+  "file": "/home/roy/ex3/src/FileNode.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/CacheManager.cpp.o -c /home/roy/ex3/src/CacheManager.cpp",
+  "file": "/home/roy/ex3/src/CacheManager.cpp"
+},
+{
+  "directory": "/home/roy/ex3/src/build",
+  "command": "/bin/c++    -g   -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles/ex3.out.dir/main.cpp.o -c /home/roy/ex3/src/main.cpp",
+  "file": "/home/roy/ex3/src/main.cpp"
+}
+]
