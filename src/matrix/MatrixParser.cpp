@@ -9,7 +9,7 @@ namespace MatrixParsering {
 
 const u_int8_t MaxToRead = 100;
 
-const matrix::Matrix& getMatrixFromFile(const std::string& path){
+const matrix::Matrix getMatrixFromFile(const std::string& path){
 
     std::ifstream file;
     file.open(path, std::ios::in);
@@ -83,17 +83,16 @@ const matrix::Matrix& getMatrixFromFile(const std::string& path){
 
     file.close();
 
-    matrix::Matrix* mat = new matrix::Matrix(lines,width);
+    matrix::Matrix mat(lines,width);
 
-    getMatrixFromVector(matrixVector, *mat);
-    
+    getMatrixFromVector(matrixVector, mat);
 
-
-    return *mat;
+    return mat;
 }
 
 
-void getMatrixFromVector(std::vector<double>& matVector, matrix::Matrix& theMatrix) {
+void getMatrixFromVector(std::vector<double>& matVector, matrix::Matrix& theMatrix) 
+{
 
     if (matVector.size() != theMatrix.matrixGetWidth() * theMatrix.matrixGetHeight()) {
         //throw invalid vector or matrix

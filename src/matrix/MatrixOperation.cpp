@@ -28,14 +28,14 @@ cacheManager::CacheManager& cache, matrixOperation m) {
         pout = &(std::cout);
     }
 
-    std::unique_ptr<matrix::Matrix> input1 = std::make_unique<matrix::Matrix>(MatrixParsering::getMatrixFromFile(inputFile1));
-    std::unique_ptr<matrix::Matrix> input2 = std::make_unique<matrix::Matrix>(MatrixParsering::getMatrixFromFile(inputFile2));
+    matrix::Matrix input1 = MatrixParsering::getMatrixFromFile(inputFile1);
+    matrix::Matrix input2 = MatrixParsering::getMatrixFromFile(inputFile2);
 
     std::stringstream ss;
     if (m == add) {
-    ss << "matrix_add" << *(input1.get()) << *(input2.get());
+    ss << "matrix_add" << (input1) << (input2);
     } else if (m == multiply){
-    ss << "matrix_multiply" << *(input1.get()) << *(input2.get());
+    ss << "matrix_multiply" << (input1) << (input2);
     } else {
         std::cerr << "no such task";
         return;
@@ -51,11 +51,11 @@ cacheManager::CacheManager& cache, matrixOperation m) {
         
     } else {
 
-        matrix::Matrix output(input1.get()->matrixGetHeight(), (input2.get())->matrixGetWidth());
+        matrix::Matrix output(input1.matrixGetHeight(), input2.matrixGetWidth());
         if (m == add) {
-            output = *(input1.get()) + (*(input2.get()));
+            output = input1 + (input2);
         } else if (m == multiply) {
-            output = *(input1.get()) * (*(input2.get()));
+            output = input1 * input2;
         } else {
             std::cerr << "no such task";
             return;

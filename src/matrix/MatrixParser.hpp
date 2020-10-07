@@ -7,7 +7,7 @@ namespace MatrixParsering {
 
 void getMatrixFromVector(std::vector<double>& matVector, matrix::Matrix& theMatrix);
 
-const matrix::Matrix& getMatrixFromFile(const std::string& path);
+const matrix::Matrix getMatrixFromFile(const std::string& path);
 
 void printMatrixToFile(matrix::Matrix& theMatrix, const std::string& outputFilePath);
 
